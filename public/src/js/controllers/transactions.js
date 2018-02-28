@@ -47,7 +47,7 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
 
       if (!tmp[addr]) {
         tmp[addr] = {};
-        tmp[addr].valueSat = 0;
+        tmp[addr].valueZat = 0;
         tmp[addr].count = 0;
         tmp[addr].addr = addr;
         tmp[addr].items = [];
@@ -57,7 +57,7 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
       tmp[addr].doubleSpentTxID = tmp[addr].doubleSpentTxID   || items[i].doubleSpentTxID;
       tmp[addr].doubleSpentIndex = tmp[addr].doubleSpentIndex || items[i].doubleSpentIndex;
       tmp[addr].dbError = tmp[addr].dbError || items[i].dbError;
-      tmp[addr].valueSat += Math.round(items[i].value * COIN);
+      tmp[addr].valueZat += Math.round(items[i].value * COIN);
       tmp[addr].items.push(items[i]);
       tmp[addr].notAddr = notAddr;
 
@@ -68,7 +68,7 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
     }
 
     angular.forEach(tmp, function(v) {
-      v.value    = v.value || parseInt(v.valueSat) / COIN;
+      v.value    = v.value || parseInt(v.valueZat) / COIN;
       ret.push(v);
     });
     return ret;
