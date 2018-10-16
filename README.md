@@ -1,6 +1,6 @@
 # Insight UI
 
-A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/snowgem/insight-api-snowgem).
+A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/anon/insight-api-anon).
 
 ## Quick Start
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/snowgem/insight-api-snowgem) configuration and end-points, go to [Insight API GitHub repository](https://github.com/snowgem/insight-api-snowgem).
+For more details about the [Insight API](https://github.com/anon/insight-api-anon) configuration and end-points, go to [Insight API GitHub repository](https://github.com/anon/insight-api-anon).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/snowgem/insight-ui-snowgem).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/anon/insight-ui-anon).
 
 
 ## License

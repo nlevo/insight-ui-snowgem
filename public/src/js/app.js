@@ -1,7 +1,7 @@
 'use strict';
 
 var testnet = false;
-var netSymbol = testnet ? 'TAZ' : 'XSG';
+var netSymbol = testnet ? 'TAZ' : 'ANON';
 
 var defaultLanguage = localStorage.getItem('insight-language') || 'en';
 var defaultCurrency = localStorage.getItem('insight-currency') || netSymbol;
